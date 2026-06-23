@@ -9,10 +9,8 @@ import {
 
 export const runtime = "nodejs";
 
-// Static company page content (hero, mission, "It's Possible" pillars), copied
-// verbatim from the captured reference and styled by the self-hosted
-// /pinterest-newsroom.css. The "Meet our leadership" section is intentionally
-// omitted. Read once and cached.
+// Static company page content, styled by the self-hosted
+// /pinterest-newsroom.css stylesheet. Read once and cached.
 let contentCache: string | null = null;
 async function loadContent(): Promise<string> {
   if (contentCache && process.env.NODE_ENV === "production") return contentCache;

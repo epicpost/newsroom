@@ -10,9 +10,8 @@ import {
 
 export const runtime = "nodejs";
 
-// Static contact page content (header, press/RSS columns), copied verbatim from
-// the captured reference and styled by the self-hosted /pinterest-newsroom.css.
-// Read once and cached.
+// Static contact page content, styled by the self-hosted
+// /pinterest-newsroom.css stylesheet. Read once and cached.
 let contentCache: string | null = null;
 async function loadContent(): Promise<string> {
   if (contentCache && process.env.NODE_ENV === "production") return contentCache;
