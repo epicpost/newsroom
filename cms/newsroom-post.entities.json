@@ -1,0 +1,256 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "slug": "/cannes-2026-pinterest-manifestival",
+      "data": {
+        "title": "Pinterest Manifestival takes inspiration off-screen and into the real world",
+        "slug": "/cannes-2026-pinterest-manifestival",
+        "category": "Partnerships",
+        "tags": [
+          "Partnerships",
+          "Trends"
+        ],
+        "category_href": "",
+        "date": "June 22, 2026",
+        "order": 0,
+        "featured": true,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/1z5nxdQJXB34sfBssYXb9u/11ef6cc957ed5584fa9806974f7a5f85/newsroom-post-cannes2026-header.jpg?fm=webp&q=85&w=1680&h=1680",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/1z5nxdQJXB34sfBssYXb9u/11ef6cc957ed5584fa9806974f7a5f85/newsroom-post-cannes2026-header.jpg?fm=webp&q=85&w=1680&h=1680",
+        "excerpt": "",
+        "markdown": "# Pinterest Manifestival takes inspiration off-screen and into the real world\n\nFull article content."
+      }
+    },
+    {
+      "id": 2,
+      "slug": "/cannes-2026",
+      "data": {
+        "title": "Pinterest’s new AI tools for the discovery era: from ads to personalized shopping",
+        "slug": "/cannes-2026",
+        "category": "Ads",
+        "tags": [
+          "Ads",
+          "Company",
+          "Product"
+        ],
+        "category_href": "",
+        "date": "June 17, 2026",
+        "order": 1,
+        "featured": true,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/20b57jGh5meAofuvmCCQTS/56522f605225c1093e6293ec3d777cf0/Cannes_Newsroom__1_.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/20b57jGh5meAofuvmCCQTS/56522f605225c1093e6293ec3d777cf0/Cannes_Newsroom__1_.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "excerpt": "",
+        "markdown": "# Pinterest’s new AI tools for the discovery era: from ads to personalized shopping\n\nFull article content."
+      }
+    },
+    {
+      "id": 3,
+      "slug": "/amazon-storefront-linking",
+      "data": {
+        "title": "Pinterest adds Amazon Storefront linking for creators",
+        "slug": "/amazon-storefront-linking",
+        "category": "Creators",
+        "tags": [
+          "Creators",
+          "Partnerships",
+          "Product"
+        ],
+        "category_href": "",
+        "date": "June 10, 2026",
+        "order": 2,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/7Aeje5V7Njm5R8fRj3Iuh1/6d46bf1e0d2bc0918e9d08d29873fd62/Newsroom_HeroGrid__2_.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/7Aeje5V7Njm5R8fRj3Iuh1/6d46bf1e0d2bc0918e9d08d29873fd62/Newsroom_HeroGrid__2_.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "excerpt": "",
+        "markdown": "# Pinterest adds Amazon Storefront linking for creators\n\nFull article content."
+      }
+    },
+    {
+      "id": 4,
+      "slug": "/pinterest-aws-power-ai-visual-search-discovery",
+      "data": {
+        "title": "Pinterest works with AWS to power next chapter of AI-driven visual search discovery",
+        "slug": "/pinterest-aws-power-ai-visual-search-discovery",
+        "category": "Company",
+        "tags": [
+          "Company",
+          "Partnerships"
+        ],
+        "category_href": "",
+        "date": "June 4, 2026",
+        "order": 3,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/HIaisA9JKpZl92k5MuJiX/bb2204634250b8cbd87b5244ddc69134/AWS_Newsroom.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/HIaisA9JKpZl92k5MuJiX/bb2204634250b8cbd87b5244ddc69134/AWS_Newsroom.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "excerpt": "",
+        "markdown": "# Pinterest works with AWS to power next chapter of AI-driven visual search discovery\n\nFull article content."
+      }
+    },
+    {
+      "id": 5,
+      "slug": "/summer-trend-report-2026",
+      "data": {
+        "title": "Pinterest Summer 2026 Trend Report: From sports to street style",
+        "slug": "/summer-trend-report-2026",
+        "category": "Trends",
+        "tags": [
+          "Trends"
+        ],
+        "category_href": "",
+        "date": "May 26, 2026",
+        "order": 4,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/7psLheq1pF6jz3Yv0OtQqw/8e9bc438472b415b13738cd54e6f67a8/Summer_FullGrid.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/7psLheq1pF6jz3Yv0OtQqw/8e9bc438472b415b13738cd54e6f67a8/Summer_FullGrid.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "excerpt": "",
+        "markdown": "# Pinterest Summer 2026 Trend Report: From sports to street style\n\nFull article content."
+      }
+    },
+    {
+      "id": 6,
+      "slug": "/2026-brand-campaign",
+      "data": {
+        "title": "Pinterest’s latest campaign wants you to live your life, not just scroll it",
+        "slug": "/2026-brand-campaign",
+        "category": "Ads",
+        "tags": [
+          "Ads",
+          "Company"
+        ],
+        "category_href": "",
+        "date": "May 1, 2026",
+        "order": 5,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/opFoTYiBJQ0ZRDxlcVagH/8eb1a5e017dbf5873b7cbaeb8a4b74c1/Anthem_Howdidtheydoit_Thumbnail.jpg?fm=webp&q=85&w=656&h=656",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/opFoTYiBJQ0ZRDxlcVagH/8eb1a5e017dbf5873b7cbaeb8a4b74c1/Anthem_Howdidtheydoit_Thumbnail.jpg?fm=webp&q=85&w=656&h=656",
+        "excerpt": "",
+        "markdown": "# Pinterest’s latest campaign wants you to live your life, not just scroll it\n\nFull article content."
+      }
+    },
+    {
+      "id": 7,
+      "slug": "/wedding-trend-report-2026",
+      "data": {
+        "title": "Pinterest Wedding Trends Report 2026: Maximum romance, modern individuality",
+        "slug": "/wedding-trend-report-2026",
+        "category": "Trends",
+        "tags": [
+          "Trends"
+        ],
+        "category_href": "",
+        "date": "April 28, 2026",
+        "order": 6,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/51rC3TIR2b9IkBgX4tAhvx/bba56b9d89828173f72c16c966da45f1/2026_Wedding_Trends_Report_hero.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/51rC3TIR2b9IkBgX4tAhvx/bba56b9d89828173f72c16c966da45f1/2026_Wedding_Trends_Report_hero.jpeg?fm=webp&q=85&w=1680&h=1680",
+        "excerpt": "",
+        "markdown": "# Pinterest Wedding Trends Report 2026: Maximum romance, modern individuality\n\nFull article content."
+      }
+    },
+    {
+      "id": 8,
+      "slug": "/tvscientific-by-pinterest",
+      "data": {
+        "title": "Introducing tvScientific by Pinterest: Pinterest Audiences now available for Connected TV",
+        "slug": "/tvscientific-by-pinterest",
+        "category": "Product",
+        "tags": [
+          "Product",
+          "Company",
+          "Ads"
+        ],
+        "category_href": "",
+        "date": "April 27, 2026",
+        "order": 7,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/4BpLRC5Y5bMDWo9hax04z0/b6fdb5f952f5e53caa0c0f7c0ff049c2/Pinterest_Newsroom_750.jpg?fm=webp&q=85&w=656&h=656",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/4BpLRC5Y5bMDWo9hax04z0/b6fdb5f952f5e53caa0c0f7c0ff049c2/Pinterest_Newsroom_750.jpg?fm=webp&q=85&w=656&h=656",
+        "excerpt": "",
+        "markdown": "# Introducing tvScientific by Pinterest: Pinterest Audiences now available for Connected TV\n\nFull article content."
+      }
+    },
+    {
+      "id": 9,
+      "slug": "/coachella-2026-phone-free",
+      "data": {
+        "title": "Pinterest brings a phone-free festival experience to Coachella",
+        "slug": "/coachella-2026-phone-free",
+        "category": "Company",
+        "tags": [
+          "Company",
+          "Trends"
+        ],
+        "category_href": "",
+        "date": "March 31, 2026",
+        "order": 8,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/4xLVY6XBzyEITfwuwfWIcw/8ebb296012e0d2a7e5936298f4fb154d/pinterest_coachella_under750_64c.png?fm=webp&q=85&w=1680&h=1680",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/4xLVY6XBzyEITfwuwfWIcw/8ebb296012e0d2a7e5936298f4fb154d/pinterest_coachella_under750_64c.png?fm=webp&q=85&w=1680&h=1680",
+        "excerpt": "",
+        "markdown": "# Pinterest brings a phone-free festival experience to Coachella\n\nFull article content."
+      }
+    },
+    {
+      "id": 10,
+      "slug": "/coachella-2026-trends",
+      "data": {
+        "title": "Pinterest reveals the trends that will define the festival season",
+        "slug": "/coachella-2026-trends",
+        "category": "Trends",
+        "tags": [
+          "Trends"
+        ],
+        "category_href": "",
+        "date": "March 31, 2026",
+        "order": 9,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/3SM3B1uURzSojFKuAWIYe9/c337bc311a6a571892ac728348b29822/y2k_accessories_under750kb.png?fm=webp&q=85&w=1440&h=1440",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/3SM3B1uURzSojFKuAWIYe9/c337bc311a6a571892ac728348b29822/y2k_accessories_under750kb.png?fm=webp&q=85&w=1440&h=1440",
+        "excerpt": "",
+        "markdown": "# Pinterest reveals the trends that will define the festival season\n\nFull article content."
+      }
+    },
+    {
+      "id": 11,
+      "slug": "/promote-a-pin-a-new-way-for-businesses-and-creators-to-reach-more-people-on-pinterest",
+      "data": {
+        "title": "Promote a Pin: A new way for businesses and creators to reach more people on Pinterest",
+        "slug": "/promote-a-pin-a-new-way-for-businesses-and-creators-to-reach-more-people-on-pinterest",
+        "category": "Creators",
+        "tags": [
+          "Creators",
+          "Ads"
+        ],
+        "category_href": "",
+        "date": "March 24, 2026",
+        "order": 10,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/3Vke4wYzfFGmCdEi3VeyNz/06bf63a16ac769ea0440b75685d92f05/Boost-A-Pin_1920x1080-HERO.png?fm=webp&q=85&w=1680&h=1680",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/3Vke4wYzfFGmCdEi3VeyNz/06bf63a16ac769ea0440b75685d92f05/Boost-A-Pin_1920x1080-HERO.png?fm=webp&q=85&w=1680&h=1680",
+        "excerpt": "",
+        "markdown": "# Promote a Pin: A new way for businesses and creators to reach more people on Pinterest\n\nFull article content."
+      }
+    },
+    {
+      "id": 12,
+      "slug": "/bring-my-pinterest-to-life",
+      "data": {
+        "title": "With a new shoppable streaming series, people bring their Pinterest boards to life",
+        "slug": "/bring-my-pinterest-to-life",
+        "category": "Creators",
+        "tags": [
+          "Creators",
+          "Company"
+        ],
+        "category_href": "",
+        "date": "March 23, 2026",
+        "order": 11,
+        "featured": false,
+        "image": "https://images.ctfassets.net/2pyx8rwuvz6x/3oGs4wgWtPxr1xHGOwfSuf/1264a2e8f37828234ae2debec70a5d92/16x9_Master_Key_Art_FINAL__WEB_.png?fm=webp&q=85&w=1440&h=1440",
+        "image_large": "https://images.ctfassets.net/2pyx8rwuvz6x/3oGs4wgWtPxr1xHGOwfSuf/1264a2e8f37828234ae2debec70a5d92/16x9_Master_Key_Art_FINAL__WEB_.png?fm=webp&q=85&w=1440&h=1440",
+        "excerpt": "",
+        "markdown": "# With a new shoppable streaming series, people bring their Pinterest boards to life\n\nFull article content."
+      }
+    }
+  ]
+}
