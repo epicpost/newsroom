@@ -8560,69 +8560,69 @@ html:not([dir="rtl"]) .RtRrbb { border-radius: var(--sema-rounding-0) var(--sema
 .zF5_dC:focus { outline: var(--sema-space-100) solid var(--sema-color-border-focus-outer-default); outline-offset: var(--sema-space-0); }
 @charset "utf-8";
 
-@font-face { font-display: swap; font-family: PinterestUI; src: url("https://s.pinimg.com/font/Pinterest-UI-Pro-Regular.otf"); }
+@font-face { font-display: swap; font-family: PinterestUI; src: url("/fonts/Pinterest-UI-Pro-Regular.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestUI; font-weight: 700; src: url("https://s.pinimg.com/font/Pinterest-UI-Pro-Bold.otf"); }
+@font-face { font-display: swap; font-family: PinterestUI; font-weight: 700; src: url("/fonts/Pinterest-UI-Pro-Bold.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansTPJ; src: url("https://s.pinimg.com/font/PinterestTPJ-Regular.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansTPJ; src: url("/fonts/PinterestTPJ-Regular.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansTPJ; font-weight: 700; src: url("https://s.pinimg.com/font/PinterestTPJ-Bold.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansTPJ; font-weight: 700; src: url("/fonts/PinterestTPJ-Bold.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansLC; src: url("https://s.pinimg.com/font/Pinterest-Sans-LC-Regular.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansLC; src: url("/fonts/Pinterest-Sans-LC-Regular.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansLC; font-style: italic; src: url("https://s.pinimg.com/font/Pinterest-Sans-LC-Regular-Italic.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansLC; font-style: italic; src: url("/fonts/Pinterest-Sans-LC-Regular-Italic.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansLC; font-weight: 700; src: url("https://s.pinimg.com/font/Pinterest-Sans-LC-Bold.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansLC; font-weight: 700; src: url("/fonts/Pinterest-Sans-LC-Bold.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansLC; font-style: italic; font-weight: 700; src: url("https://s.pinimg.com/font/Pinterest-Sans-LC-Bold-Italic.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansLC; font-style: italic; font-weight: 700; src: url("/fonts/Pinterest-Sans-LC-Bold-Italic.otf"); }
 
-@font-face { font-display: swap; font-family: PinSans; src: url("https://s.pinimg.com/font/Pin-Sans-Regular.ttf"); }
+@font-face { font-display: swap; font-family: PinSans; src: url("/fonts/Pin-Sans-Regular.ttf"); }
 
-@font-face { font-display: swap; font-family: PinSans; font-style: italic; src: url("https://s.pinimg.com/font/Pin-Sans-Regular-Italic.ttf"); }
+@font-face { font-display: swap; font-family: PinSans; font-style: italic; src: url("/fonts/Pin-Sans-Regular-Italic.ttf"); }
 
-@font-face { font-display: swap; font-family: PinSans; font-weight: 500; src: url("https://s.pinimg.com/font/Pin-Sans-Medium.ttf"); }
+@font-face { font-display: swap; font-family: PinSans; font-weight: 500; src: url("/fonts/Pin-Sans-Medium.ttf"); }
 
-@font-face { font-display: swap; font-family: PinSans; font-style: italic; font-weight: 500; src: url("https://s.pinimg.com/font/Pin-Sans-Medium-Italic.ttf"); }
+@font-face { font-display: swap; font-family: PinSans; font-style: italic; font-weight: 500; src: url("/fonts/Pin-Sans-Medium-Italic.ttf"); }
 
-@font-face { font-display: swap; font-family: PinSans; font-weight: 900; src: url("https://s.pinimg.com/font/Pin-Sans-Heavy.ttf"); }
+@font-face { font-display: swap; font-family: PinSans; font-weight: 900; src: url("/fonts/Pin-Sans-Heavy.ttf"); }
 
-@font-face { font-display: swap; font-family: PinSans; font-style: italic; font-weight: 900; src: url("https://s.pinimg.com/font/Pin-Sans-Heavy-Italic.ttf"); }
+@font-face { font-display: swap; font-family: PinSans; font-style: italic; font-weight: 900; src: url("/fonts/Pin-Sans-Heavy-Italic.ttf"); }
 
-@font-face { font-display: swap; font-family: PinSans; font-weight: 700; src: url("https://s.pinimg.com/font/Pin-Sans-Bold.ttf"); }
+@font-face { font-display: swap; font-family: PinSans; font-weight: 700; src: url("/fonts/Pin-Sans-Bold.ttf"); }
 
-@font-face { font-display: swap; font-family: PinSans; font-style: italic; font-weight: 700; src: url("https://s.pinimg.com/font/Pin-Sans-Bold-Italic.ttf"); }
+@font-face { font-display: swap; font-family: PinSans; font-style: italic; font-weight: 700; src: url("/fonts/Pin-Sans-Bold-Italic.ttf"); }
 
-@font-face { font-display: swap; font-family: PinterestSans; src: url("https://s.pinimg.com/font/Pinterest-Sans-Regular.otf"); }
+@font-face { font-display: swap; font-family: PinterestSans; src: url("/fonts/Pinterest-Sans-Regular.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSans; font-style: italic; src: url("https://s.pinimg.com/font/Pinterest-Sans-Regular-Italic.otf"); }
+@font-face { font-display: swap; font-family: PinterestSans; font-style: italic; src: url("/fonts/Pinterest-Sans-Regular-Italic.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSans; font-weight: 700; src: url("https://s.pinimg.com/font/Pinterest-Sans-Bold.otf"); }
+@font-face { font-display: swap; font-family: PinterestSans; font-weight: 700; src: url("/fonts/Pinterest-Sans-Bold.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSans; font-style: italic; font-weight: 700; src: url("https://s.pinimg.com/font/Pinterest-Sans-Bold-Italic.otf"); }
+@font-face { font-display: swap; font-family: PinterestSans; font-style: italic; font-weight: 700; src: url("/fonts/Pinterest-Sans-Bold-Italic.otf"); }
 
-@font-face { font-display: swap; font-family: HaasGrotDisp; src: url("https://s.pinimg.com/font/Neue_Haas_Grot_Disp_Round_Pinterest-55_Roman.otf"); }
+@font-face { font-display: swap; font-family: HaasGrotDisp; src: url("/fonts/Neue_Haas_Grot_Disp_Round_Pinterest-55_Roman.otf"); }
 
-@font-face { font-display: swap; font-family: HaasGrotDisp; font-style: italic; src: url("https://s.pinimg.com/font/Neue_Haas_Grot_Disp_Round_Pinterest-56_Italic.otf"); }
+@font-face { font-display: swap; font-family: HaasGrotDisp; font-style: italic; src: url("/fonts/Neue_Haas_Grot_Disp_Round_Pinterest-56_Italic.otf"); }
 
-@font-face { font-display: swap; font-family: HaasGrotDisp; font-weight: 700; src: url("https://s.pinimg.com/font/Neue_Haas_Grot_Disp_Round_Pinterest-75_Bold.otf"); }
+@font-face { font-display: swap; font-family: HaasGrotDisp; font-weight: 700; src: url("/fonts/Neue_Haas_Grot_Disp_Round_Pinterest-75_Bold.otf"); }
 
-@font-face { font-display: swap; font-family: HaasGrotDisp; font-style: italic; font-weight: 700; src: url("https://s.pinimg.com/font/Neue_Haas_Grot_Disp_Round_Pinterest-76_Bold_Italic.otf"); }
+@font-face { font-display: swap; font-family: HaasGrotDisp; font-style: italic; font-weight: 700; src: url("/fonts/Neue_Haas_Grot_Disp_Round_Pinterest-76_Bold_Italic.otf"); }
 
-@font-face { font-display: swap; font-family: HaasGrotText; src: url("https://s.pinimg.com/font/Neue_Haas_Grot_Text_Round_Pinterest-55_Roman.otf"); }
+@font-face { font-display: swap; font-family: HaasGrotText; src: url("/fonts/Neue_Haas_Grot_Text_Round_Pinterest-55_Roman.otf"); }
 
-@font-face { font-display: swap; font-family: HaasGrotText; font-style: italic; src: url("https://s.pinimg.com/font/Neue_Haas_Grot_Text_Round_Pinterest-56_Italic.otf"); }
+@font-face { font-display: swap; font-family: HaasGrotText; font-style: italic; src: url("/fonts/Neue_Haas_Grot_Text_Round_Pinterest-56_Italic.otf"); }
 
-@font-face { font-display: swap; font-family: HaasGrotText; font-weight: 700; src: url("https://s.pinimg.com/font/Neue_Haas_Grot_Text_Round_Pinterest-75_Bold.otf"); }
+@font-face { font-display: swap; font-family: HaasGrotText; font-weight: 700; src: url("/fonts/Neue_Haas_Grot_Text_Round_Pinterest-75_Bold.otf"); }
 
-@font-face { font-display: swap; font-family: HaasGrotText; font-style: italic; font-weight: 700; src: url("https://s.pinimg.com/font/Neue_Haas_Grot_Text_Round_Pinterest-76_Bold_Italic.otf"); }
+@font-face { font-display: swap; font-family: HaasGrotText; font-style: italic; font-weight: 700; src: url("/fonts/Neue_Haas_Grot_Text_Round_Pinterest-76_Bold_Italic.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansPro; src: url("https://s.pinimg.com/font/Pinterest-Sans-Pro-Regular.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansPro; src: url("/fonts/Pinterest-Sans-Pro-Regular.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansPro; font-style: italic; src: url("https://s.pinimg.com/font/Pinterest-Sans-Pro-Regular-Italic.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansPro; font-style: italic; src: url("/fonts/Pinterest-Sans-Pro-Regular-Italic.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansPro; font-weight: 700; src: url("https://s.pinimg.com/font/Pinterest-Sans-Pro-Bold.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansPro; font-weight: 700; src: url("/fonts/Pinterest-Sans-Pro-Bold.otf"); }
 
-@font-face { font-display: swap; font-family: PinterestSansPro; font-style: italic; font-weight: 700; src: url("https://s.pinimg.com/font/Pinterest-Sans-Pro-Bold-Italic.otf"); }
+@font-face { font-display: swap; font-family: PinterestSansPro; font-style: italic; font-weight: 700; src: url("/fonts/Pinterest-Sans-Pro-Bold-Italic.otf"); }
 
 .BusinessAccordion { margin: 0px; padding: 0px; position: relative; }
 
