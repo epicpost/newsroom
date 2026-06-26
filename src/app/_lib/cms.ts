@@ -17,18 +17,55 @@ function cmsConfig(): { base: string; key: string } | null {
 // --- Content collections -----------------------------------------------------
 
 export type CmsEntry<T = Record<string, unknown>> = {
-  slug: string;
+  id?: string;
+  documentId?: string;
+  slug: string | null;
+  title?: string;
   data: T;
+  seo?: { metaTitle?: string; metaDescription?: string };
+  meta?: Record<string, unknown>;
+  publishedAt?: string;
 };
 
 type ContentEnvelope<T> = {
-  data?: { entries?: CmsEntry<T>[] } | CmsEntry<T>[];
+  data?: { entries?: CmsEntry<T>[] } | CmsEntry<T>[] | CmsEntry<T> | null;
+  meta?: Record<string, unknown>;
 };
 
 const contentCache = new Map<
   string,
-  { entries: CmsEntry[]; expiresAt: number }
+  { value: CmsEntry[] | CmsEntry | null; expiresAt: number }
 >();
+
+function queryString(query?: Record<string, string | number | boolean | undefined>): string {
+  if (!query) return "";
+  const params = new URLSearchParams();
+  for (const [key, value] of Object.entries(query)) {
+    if (value !== undefined) params.set(key, String(value));
+  }
+  const qs = params.toString();
+  return qs ? `?${qs}` : "";
+}
+
+function cacheKey(contentType: string, query?: Record<string, unknown>): string {
+  return `${contentType}:${JSON.stringify(query ?? {})}`;
+}
+
+function hasEntries<T>(
+  value: ContentEnvelope<T>["data"],
+): value is { entries?: CmsEntry<T>[] } {
+  return Boolean(value && !Array.isArray(value) && "entries" in value);
+}
+
+function isEntry<T>(value: ContentEnvelope<T>["data"]): value is CmsEntry<T> {
+  return Boolean(
+    value &&
+      !Array.isArray(value) &&
+      !("entries" in value) &&
+      "data" in value &&
+      "slug" in value,
+  );
+}
 
 /**
  * Fetch all entries for a content type (collection). Returns `null` — never
@@ -37,31 +74,71 @@ const contentCache = new Map<
  */
 export async function fetchEntries<T = Record<string, unknown>>(
   contentType: string,
+  query?: Record<string, string | number | boolean | undefined>,
 ): Promise<CmsEntry<T>[] | null> {
-  const cached = contentCache.get(contentType);
+  const key = cacheKey(contentType, query);
+  const cached = contentCache.get(key);
   if (cached && cached.expiresAt > Date.now()) {
-    return cached.entries as CmsEntry<T>[];
+    return cached.value as CmsEntry<T>[];
   }
 
   const config = cmsConfig();
   if (!config) return null;
 
   try {
-    const res = await fetch(`${config.base}/api/content/${contentType}`, {
+    const res = await fetch(`${config.base}/api/${contentType}${queryString(query)}`, {
       headers: { Authorization: `Bearer ${config.key}` },
       cache: "no-store",
     });
     if (!res.ok) return null;
 
     const body = (await res.json()) as ContentEnvelope<T>;
-    const entries = Array.isArray(body.data) ? body.data : body.data?.entries;
-    if (!entries?.length) return null;
+    const entries = Array.isArray(body.data)
+      ? body.data
+      : hasEntries(body.data)
+        ? body.data.entries
+        : undefined;
+    if (!entries) return null;
 
-    contentCache.set(contentType, {
-      entries: entries as CmsEntry[],
+    contentCache.set(key, {
+      value: entries as CmsEntry[],
       expiresAt: Date.now() + CACHE_TTL_MS,
     });
     return entries;
+  } catch {
+    return null;
+  }
+}
+
+export async function fetchSingle<T = Record<string, unknown>>(
+  contentType: string,
+  query?: Record<string, string | number | boolean | undefined>,
+): Promise<CmsEntry<T> | null> {
+  const key = cacheKey(contentType, query);
+  const cached = contentCache.get(key);
+  if (cached && cached.expiresAt > Date.now()) {
+    return cached.value as CmsEntry<T> | null;
+  }
+
+  const config = cmsConfig();
+  if (!config) return null;
+
+  try {
+    const res = await fetch(`${config.base}/api/${contentType}${queryString(query)}`, {
+      headers: { Authorization: `Bearer ${config.key}` },
+      cache: "no-store",
+    });
+    if (!res.ok) return null;
+
+    const body = (await res.json()) as ContentEnvelope<T>;
+    const entry = Array.isArray(body.data) ? body.data[0] : body.data;
+    if (!isEntry(entry)) return null;
+
+    contentCache.set(key, {
+      value: entry as CmsEntry,
+      expiresAt: Date.now() + CACHE_TTL_MS,
+    });
+    return entry;
   } catch {
     return null;
   }
