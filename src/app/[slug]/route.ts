@@ -27,14 +27,14 @@ function articleStyles(): string {
   color: inherit;
 }
 .news-detail__header {
-  margin: 128px auto 56px;
-  max-width: 1008px;
+  margin: 40px auto 56px;
+  max-width: 1216px;
   padding: 0 32px;
   text-align: center;
 }
 .news-detail__title {
   font-size: 64px;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: -0.005em;
   line-height: 115%;
   margin: 0 auto;
@@ -71,7 +71,7 @@ function articleStyles(): string {
 .news-detail__date {
   font-size: 20px;
   font-feature-settings: "clig" 0, "liga" 0;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 135%;
   margin: 0;
   text-align: center;
@@ -193,7 +193,7 @@ function articleStyles(): string {
 }
 @media (max-width: 767px) {
   .news-detail__header {
-    margin: 56px auto 32px;
+    margin: 22px auto 32px;
     padding: 0 20px;
   }
   .newsroom-navbar-grid {
@@ -243,6 +243,11 @@ function articleStyles(): string {
   }
   .news-detail__body {
     font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .news-detail__header {
+    margin-top: 30px;
   }
 }
 </style>`;

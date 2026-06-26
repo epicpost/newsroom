@@ -21,7 +21,7 @@ Configure environment variables in `.env` (already present):
 ```bash
 CMS_API_BASE=https://api.monomcp.com   # CMS delivery API base
 CMS_API_KEY=                           # read-only `mweb_` key (blank = use local fallback)
-CMS_POSTS_TYPE=newsroom-post           # content-type UID for posts
+CMS_POSTS_TYPE=articles                # content-type UID for posts
 CMS_HEADER_MENU=main-header            # navigation menu key
 ```
 
@@ -63,20 +63,24 @@ src/app/
   _lib/
     cms.ts                 # CMS delivery client (content + navigation, 60s cache, graceful fallback)
     posts.ts               # newsroom posts content layer (CMS → normalized, local JSON fallback)
+    pages.ts               # CMS single-type loaders for home/company/contact pages
     render-markdown.ts      # Markdown → HTML pipeline (remark/rehype/shiki)
   _shared/
     site-shell.ts          # shared header/footer + HTML document wrapper
 cms/
   newsroom-post.entities.json   # local content fallback (used when CMS is unset/unreachable)
 public/
-  pinterest-newsroom.css   # self-hosted stylesheet for the /newsroom page
+  epicpost-newsroom.css    # self-hosted stylesheet for the /newsroom page
 ```
 
 ## How content loading works
 
 1. `_lib/cms.ts` calls the CMS delivery API
-   (`GET {CMS_API_BASE}/api/content/{type}` and `/api/navigation/{menu}`) with
+   (`GET {CMS_API_BASE}/api/{type}` and `/api/navigation/{menu}`) with
    `Authorization: Bearer {CMS_API_KEY}`.
-2. Responses are cached in memory for 60 seconds.
-3. If the CMS is unconfigured or unreachable, the site falls back to
+2. Articles use the MonoMCP Strapi-compatible facade:
+   `populate=*`, `sort=publishedDate:desc`, `pagination[pageSize]`, and
+   `filters[category][slug][$eq]`.
+3. Responses are cached in memory for 60 seconds.
+4. If the CMS is unconfigured or unreachable, the site falls back to
    `cms/*.entities.json` (and static default navigation), so it never goes dark.
